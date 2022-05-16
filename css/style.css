@@ -1,0 +1,19 @@
+    .header {
+        padding: 48px 62px 48px 188px; 
+        background-color: gray;
+    }
+    .navigation-link 
+    {padding-right: 40px;}
+    .phone 
+    { margin-right: 40px ;}
+    .navigation-link:hover 
+    {color: red}
+   .rezerv {position: absolute;
+        right: 180px;
+        font-family:"Open Suns"; 
+        background-color:transparent;
+        color: white;
+        margin-top: -20px;
+        
+        border: 1px solid #FF6C00;
+        border-radius: 25px; } 
