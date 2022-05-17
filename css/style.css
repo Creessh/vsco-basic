@@ -49,6 +49,7 @@
     padding: 270px 0 205px 96px;
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
   
   .intro {
@@ -81,3 +82,9 @@
     list-style: none;
   
     display: flex;}
+  .logo {position: absolute;
+    left: 1.11%;
+    right: 90.73%;
+    top: 25.64%;
+    bottom: 90.26%;
+    }
