@@ -1,90 +1,155 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .header {
-    padding: 48px 62px 48px 188px;
-    background-color: grey;
-  }
-  
-  .navigation-link,
-  .phone {
-    margin-right: 40px;
-    color: #fff;
-    text-decoration: none;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-  }
-  .phone:hover {color: #ff6c00;
+  :root {
+  --gap: 20px;
+  --font: "Open Sans", sans-serif;
+}
 
-  }
-  .navigation-link:hover {
-    color: #ff6c00;
-  }
-  
-    .reserv {
-    border: 1px solid #ff6c00;
-    border-radius: 25px;
-    background-color: transparent;
-    padding: 10px 20px;
-    font-family: "Open Sans", sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: 600;
-  }
-  
-  .container {
-    width: 1140px;
-    margin: 0 auto;
-  }
-  
-  .social {
-    margin-right: 30px;
-  }
-  
-  .hero-container {
-    background-image: url("/image/slider3.jpg");
-    padding: 270px 0 205px 96px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-  }
-  
-  .intro {
-    font-family: "Open Sans";
-    font-weight: 600;
-    font-size: 11px;
-    text-transform: uppercase;
-    color: rgba(157, 164, 189, 0.6);
-    margin-bottom: 20px;
-  }
-  
-  .title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 72px;
-    color: #ffffff;
-    margin-bottom: 20px;
-  }
-  
-  .hero-description {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: #9da4bd;
-    width: 400px;
-  }
-  
-  .list {
-    padding-left: 40px;
-    list-style: none;
-  
-    display: flex;}
-  .logo {position: absolute;
-    left: 1.11%;
-    right: 90.73%;
-    top: 25.64%;
-    bottom: 90.26%;
-    }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 48px 62px 48px 188px;
+  background-color: grey;
+}
+
+.navigation-link,
+.phone {
+  margin-right: 40px;
+  color: #fff;
+  text-decoration: none;
+  font-family: var(--font);
+  font-size: 12px;
+}
+
+.navigation-link:hover {
+  color: #ff6c00;
+}
+
+.reserv {
+  border: 1px solid #ff6c01;
+  border-radius: 25px;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-family: var(--font);
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  font-weight: bold;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  width: 130px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  /* font-family: Arial, sans-serif; */
+}
+
+.hero-container {
+  background-image: url("/image/slider3.jpg");
+  padding: 270px 0 205px 96px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1072px;
+}
+
+.intro {
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  color: #ffffff;
+  margin-bottom: var(--gap);
+}
+
+.hero-description {
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 18px;
+  color: #9da4bd;
+  width: 400px;
+}
+
+.list {
+  padding-left: 40px;
+  list-style: none;
+
+  display: flex;
+}
+
+.description {
+  padding: 130px 0 90px;
+}
+
+.description-img {
+  margin-right: 26px;
+}
+
+.section-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  color: #303030;
+  margin-bottom: var(--gap);
+}
+
+.img-container {
+  width: 570px;
+  /* margin-right: 64px; */
+}
+
+.content {
+  width: 500px;
+}
+
+.sub-title {
+  margin-bottom: var(--gap);
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.actions {
+  text-align: center;
+}
+
+/* p::first-letter {
+}
+p:first-child {
+}
+p:nth-child(2) {
+} */
+
+/* img:nth-child(3),
+img:nth-child(6),
+img:nth-child(9) {
+  margin-right: 0;
+} */
+
+/* 2000 
+2000 - 1140 = 860
+860 / 2
+430
+430 - 1140 - 430 */
+
+/* margin
+padding */
